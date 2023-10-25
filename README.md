@@ -1,6 +1,7 @@
 # -JavaScript-Algorithms-and-Data-Structures
 
 - Anagram -
+
 First, it compares the lengths of the two input strings (first and second). If the lengths are different, it assumes that the strings cannot be anagrams of each other and returns false.
 
 If the lengths of the strings are the same, it creates a lookup object to keep track of how many times each character appears in the strings. This object stores the count of each character. As it processes characters from the first string, it adds them to the lookup object, and increments their count.
